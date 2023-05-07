@@ -1,1 +1,1 @@
-# future_minds
+# Future Minds
