@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400');
+
+* {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'lato', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.main-container {
+  background-color: #6f23ff;
+  border-bottom-left-radius: 100px;
+  height: 90vh;
+  padding-bottom: 100px;
+}
+
+.main {
+  background-image: url(../images/header-shapes-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 108px 20px 0 20px;
+}
+
+.main-text {
+  font-size: 50px;
+  color: #fff;
+}
+
+.info-text {
+  font-size: 22px;
+  color: #fff;
+}
+
+.connect-btn {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  background-color: #ffc800;
+  border-radius: 5px;
+  padding: 1rem 4rem;
+}
+
+/* --------Teachers Section-------- */
