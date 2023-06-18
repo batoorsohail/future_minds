@@ -45,3 +45,56 @@
 }
 
 /* --------Teachers Section-------- */
+
+.teacher-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding: 0 20px 0 20px;
+  background-color: #f9faff;
+}
+
+.te-h2-title {
+  color: #383b72;
+  margin-top: 50px;
+}
+
+.te-p-info {
+  color: #7e7bb2;
+}
+
+.teachers-container {
+  display: flex;
+  gap: 10px;
+}
+
+.teachers-images {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin-top: -30px;
+}
+
+.teachers-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  background-color: #fff;
+  padding: 20px 20px 20px 50px;
+  margin-left: 50px;
+}
+
+.teachers-name {
+  color: #45487b;
+}
+
+.teachers-position {
+  color: #b5b5b5;
+}
+
+.teachers-subject {
+  color: #5c5a5b;
+}
