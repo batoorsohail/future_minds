@@ -9,7 +9,7 @@
 }
 
 .nav-container {
-  background-color: rgb(126, 45, 255, 1);
+  background-color: #6f23ff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,6 +19,11 @@
 
 h1 {
   color: #fff;
+}
+
+.menu-icon {
+  color: #fff;
+  font-size: 32px;
 }
 
 .hide {

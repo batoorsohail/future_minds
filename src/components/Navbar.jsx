@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { FaBars } from 'react-icons/fa';
 import './navbar.css';
 
 const Navbar = () => {
@@ -13,7 +14,7 @@ const Navbar = () => {
       <nav className="nav-container">
         <h1>Future Minds</h1>
         <div className="menu">
-          <button type="button" className="menu-icon" onClick={toggleMenu}>Menu</button>
+          <FaBars className="menu-icon" onClick={toggleMenu} />
           <ul className={isOpen ? 'show' : 'hide'}>
             <li>
               <Link className="nav-ul-link" to="/">Home</Link>
