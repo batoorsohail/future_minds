@@ -8,6 +8,11 @@
   margin: 0;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 .main-container {
   background-color: #6f23ff;
   border-bottom-left-radius: 100px;
@@ -102,6 +107,11 @@
 
 /* ------about section--------- */
 
+.break-line {
+  width: 90%;
+  align-self: center;
+}
+
 .about-section {
   display: flex;
   flex-direction: column;
@@ -109,6 +119,7 @@
   text-align: center;
   gap: 30px;
   padding: 60px 20px 70px 20px;
+  background-color: #f9faff;
 }
 
 .about-title {

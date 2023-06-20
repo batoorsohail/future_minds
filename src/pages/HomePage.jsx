@@ -21,8 +21,9 @@ const HomePage = () => (
       </article>
     </section>
     <Teachers />
-    <hr />
+    <hr className="break-line" />
     <About />
+    <hr className="break-line" />
   </main>
 );
 
