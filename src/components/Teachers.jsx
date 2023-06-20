@@ -27,9 +27,7 @@ const teacherInfo = [
 const Teachers = () => (
   <section className="teacher-section">
     <h2 className="te-h2-title">
-      We help you to change
-      <br />
-      your life
+      We help you to change your life
     </h2>
     <p className="te-p-info">
       Microverse students are from countries around the world.

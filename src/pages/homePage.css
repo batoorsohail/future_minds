@@ -52,13 +52,14 @@
   align-items: center;
   text-align: center;
   gap: 30px;
-  padding: 0 20px 0 20px;
+  padding: 0 20px 60px 20px;
   background-color: #f9faff;
 }
 
 .te-h2-title {
   color: #383b72;
   margin-top: 50px;
+  font-size: 30px;
 }
 
 .te-p-info {
@@ -97,4 +98,48 @@
 
 .teachers-subject {
   color: #5c5a5b;
+}
+
+/* ------about section--------- */
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding: 60px 20px 70px 20px;
+}
+
+.about-title {
+  color: #41d3be;
+  font-size: 30px;
+}
+
+.about-info {
+  font-size: 18px;
+  color: #7e7bb2;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  margin-bottom: 60px;
+}
+
+.about-img {
+  width: 100%;
+  height: 28vh;
+}
+
+.about-name {
+  color: #45487b;
+}
+
+.about-details {
+  font-size: 18px;
+  color: #7e7bb2;
 }
