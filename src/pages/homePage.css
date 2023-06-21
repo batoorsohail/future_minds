@@ -8,6 +8,11 @@
   margin: 0;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 .main-container {
   background-color: #6f23ff;
   border-bottom-left-radius: 100px;
@@ -22,7 +27,7 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: 108px 20px 0 20px;
+  padding: 80px 20px 0 20px;
 }
 
 .main-text {
@@ -45,3 +50,107 @@
 }
 
 /* --------Teachers Section-------- */
+
+.teacher-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding: 0 20px 60px 20px;
+  background-color: #f9faff;
+}
+
+.te-h2-title {
+  color: #383b72;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.te-p-info {
+  color: #7e7bb2;
+}
+
+.teachers-container {
+  display: flex;
+  gap: 10px;
+}
+
+.teachers-images {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin-top: -30px;
+}
+
+.teachers-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  background-color: #fff;
+  padding: 20px 20px 20px 50px;
+  margin-left: 50px;
+}
+
+.teachers-name {
+  color: #45487b;
+}
+
+.teachers-position {
+  color: #b5b5b5;
+}
+
+.teachers-subject {
+  color: #5c5a5b;
+}
+
+/* ------about section--------- */
+
+.break-line {
+  width: 90%;
+  align-self: center;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding: 60px 20px 70px 20px;
+  background-color: #f9faff;
+}
+
+.about-title {
+  color: #41d3be;
+  font-size: 30px;
+}
+
+.about-info {
+  font-size: 18px;
+  color: #7e7bb2;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  margin-bottom: 60px;
+}
+
+.about-img {
+  width: 100%;
+  height: 28vh;
+}
+
+.about-name {
+  color: #45487b;
+}
+
+.about-details {
+  font-size: 18px;
+  color: #7e7bb2;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import './homePage.css';
 import Teachers from '../components/Teachers';
+import About from '../components/About';
 
 const HomePage = () => (
   <main>
@@ -20,6 +21,9 @@ const HomePage = () => (
       </article>
     </section>
     <Teachers />
+    <hr className="break-line" />
+    <About />
+    <hr className="break-line" />
   </main>
 );
 
