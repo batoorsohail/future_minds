@@ -2,6 +2,7 @@ import React from 'react';
 import './homePage.css';
 import Teachers from '../components/Teachers';
 import About from '../components/About';
+import Contact from '../components/Contact';
 
 const HomePage = () => (
   <main>
@@ -23,7 +24,7 @@ const HomePage = () => (
     <Teachers />
     <hr className="break-line" />
     <About />
-    <hr className="break-line" />
+    <Contact />
   </main>
 );
 
