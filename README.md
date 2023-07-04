@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-# Crypto World
+# Future Minds
 
 # 📗 Table of Contents
 
