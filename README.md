@@ -4,7 +4,7 @@
 
 # 📗 Table of Contents
 
-- [Space Travelers' Hub Project](#space-travelers-hub-project)
+- [Future Minds' Hub Project](#future-minds)
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 Future Minds' Hub Project ](#-future-minds-)
   - [🛠 Built With ](#-built-with-)
