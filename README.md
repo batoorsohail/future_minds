@@ -6,7 +6,7 @@
 
 - [Space Travelers' Hub Project](#space-travelers-hub-project)
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Space Travelers' Hub Project ](#-space-travelers-hub-project-)
+- [📖 Future Minds' Hub Project ](#-future-minds-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
