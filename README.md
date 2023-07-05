@@ -24,7 +24,7 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 Crypto World <a name="about-project"></a>
+# 📖 Future Minds <a name="about-project"></a>
 
 **Crypto World is a react project that gets the data from the API and displays it**
 
