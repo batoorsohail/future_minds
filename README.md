@@ -55,7 +55,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Live Demo](https://crypto-world-microverse.netlify.app/)
+[Live Demo]([https://crypto-world-microverse.netlify.app/](https://future-minds.netlify.app/))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
