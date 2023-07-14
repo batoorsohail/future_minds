@@ -36,6 +36,7 @@
 
 - **Home Page**
 - **Details Page**
+- **Form to contact us**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
