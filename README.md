@@ -26,7 +26,7 @@
 
 # 📖 Future Minds <a name="about-project"></a>
 
-**Crypto World is a react project that gets the data from the API and displays it**
+**Futre Minds is a react project that gets the data from the API and displays it**
 
 ## 🛠 Built With <a name="built-with"></a>
 
