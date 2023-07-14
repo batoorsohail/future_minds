@@ -111,12 +111,6 @@ If you want to build the project `$ npm run build` - this will build the project
 
 Start the Project `$ npm start` - serve the project in browser
 
-### Test
-
-```sh
- npm test
-```
-
 ## 👥 Authors <a name="authors"></a>
 
 ### 👤 **Batoor Sohail**
