@@ -6,7 +6,7 @@
 
 - [Future Minds' Hub Project](#future-minds)
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Future Minds' Hub Project ](#-future-minds-)
+- [📖 Future Minds' Project ](#-future-minds-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
