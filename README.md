@@ -75,42 +75,6 @@ In order to run this project you need a Chrome, Safari or Mozilla browser
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
-To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need:
-
-```sh
- npm install
-```
-
-### Setup
-
-Clone this repository to your desired folder:
-
-
-Example commands:
-
-```sh
-  cd my-folder
-  git clone https://github.com/batoorsohail/crypto-world.git
-```
-
-### Install
-
-To clone this repo go to "https://github.com/batoorsohail/crypto-world"
-
-git clone your repo
-
-cd into the folder
-
-Install dependencies `$ npm install`
-
-If you want to build the project `$ npm run build` - this will build the project in /dist folder
-
-Start the Project `$ npm start` - serve the project in browser
-
 ## 👥 Authors <a name="authors"></a>
 
 ### 👤 **Batoor Sohail**
