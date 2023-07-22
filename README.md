@@ -62,18 +62,33 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-Project presentation will be coming soon.
-
 ### Prerequisites <a name="prerequisites"></a>
 
 In order to run this project you need a Chrome, Safari or Mozilla browser
 
-### Setup <a name="setup"></a>
+To get a local copy up and running, follow these steps.
 
-<!-- GETTING STARTED -->
+### Setup
 
-## 💻 Getting Started <a name="getting-started"></a>
+Clone this repository to your desired folder:
 
+```sh
+  cd <desired-folder>
+  git clone https://github.com/batoorsohail/hello-react-front-end.git
+```
+
+### Install <a name="install"></a>
+
+```sh
+  cd hello-react-front-end
+  npm install
+```
+
+### Usage <a name="usage"></a>
+
+```sh
+  npm start
+```
 
 ## 👥 Authors <a name="authors"></a>
 
