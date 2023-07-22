@@ -74,13 +74,13 @@ Clone this repository to your desired folder:
 
 ```sh
   cd <desired-folder>
-  git clone https://github.com/batoorsohail/hello-react-front-end.git
+  git clone https://github.com/batoorsohail/future_minds.git
 ```
 
 ### Install <a name="install"></a>
 
 ```sh
-  cd hello-react-front-end
+  cd future_minds
   npm install
 ```
 
