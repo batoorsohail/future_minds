@@ -4,7 +4,7 @@
 
 # 📗 Table of Contents
 
-- [Future Minds' Hub Project](#future-minds)
+- [Future Minds Project](#future-minds)
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 Future Minds' Project ](#-future-minds-)
   - [🛠 Built With ](#-built-with-)
@@ -56,6 +56,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+### Note: Still working 
 [Live Demo](future-minds.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
