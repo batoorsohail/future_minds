@@ -73,4 +73,12 @@ h1 {
   .hide {
     display: flex;
   }
+
+  .close-icon {
+    display: none;
+  }
+
+  .nav-container {
+    padding: 0 10rem 0 10rem;
+  }
 }
