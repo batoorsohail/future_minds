@@ -219,3 +219,12 @@ input::placeholder {
   border-radius: 8px;
   padding: 15px 32px 15px 16px;
 }
+
+@media screen and (min-width: 768px) {
+  .main {
+    background-image: url(../images/header-shapes-desktop.png);
+    background-size:contain; 
+    height: 100vh;
+    padding: 10% 30% 0 10%;
+  }
+}
