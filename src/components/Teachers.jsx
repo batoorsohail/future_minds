@@ -34,16 +34,18 @@ const Teachers = () => (
       At Microverse, you learn with a diverse, driven community and connect
       to life-changing job opportunities.
     </p>
-    {teacherInfo.map((teacher) => (
-      <article className="teachers-container" key={teacher.id}>
-        <img src={teacher.img} className="teachers-images" alt={teacher.name} />
-        <div className="teachers-info">
-          <h4 className="teachers-name">{teacher.name}</h4>
-          <p className="teachers-position">{teacher.position}</p>
-          <p className="teachers-subject">{teacher.subject}</p>
-        </div>
-      </article>
-    ))}
+    <section className="teachers">
+      {teacherInfo.map((teacher) => (
+        <article className="teachers-container" key={teacher.id}>
+          <img src={teacher.img} className="teachers-images" alt={teacher.name} />
+          <div className="teachers-info">
+            <h4 className="teachers-name">{teacher.name}</h4>
+            <p className="teachers-position">{teacher.position}</p>
+            <p className="teachers-subject">{teacher.subject}</p>
+          </div>
+        </article>
+      ))}
+    </section>
   </section>
 );
 

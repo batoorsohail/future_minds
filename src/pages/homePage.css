@@ -227,4 +227,27 @@ input::placeholder {
     height: 100vh;
     padding: 10% 30% 0 10%;
   }
+
+  .te-h2-title {
+    font-size: 36px;
+  }
+
+  .te-p-info {
+    font-size: 22px;
+    width: 50%;
+  }
+
+  .teachers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+
+  .teachers-container {
+    width: 25%;
+    height: 200px;
+    gap: 20px;
+  }
 }
