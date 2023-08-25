@@ -228,8 +228,15 @@ input::placeholder {
     padding: 10% 30% 0 10%;
   }
 
+  .teacher-section {
+    justify-content: center;
+    height: 90vh;
+    gap: 50px;
+  }
+
   .te-h2-title {
     font-size: 36px;
+    margin-top: 0;
   }
 
   .te-p-info {
@@ -242,12 +249,20 @@ input::placeholder {
     align-items: center;
     justify-content: center;
     gap: 30px;
-    margin-top: 20px;
   }
 
   .teachers-container {
-    width: 25%;
+    width: 30%;
     height: 200px;
     gap: 20px;
+  }
+
+  .teachers-images {
+    width: 150px;
+    height: 150px;
+  }
+
+  .teachers-info {
+    margin-left: 100px;
   }
 }
