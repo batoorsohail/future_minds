@@ -37,13 +37,15 @@ const About = () => (
       and your career. New cohorts start every 5 weeks, learn more about our
       next start dates and applying!
     </p>
-    {aboutInfo.map((about) => (
-      <article className="about-container" key={about.id}>
-        <img src={about.img} className="about-img" alt={about.name} />
-        <h3 className="about-name">{about.name}</h3>
-        <p className="about-details">{about.details}</p>
-      </article>
-    ))}
+    <section className="about">
+      {aboutInfo.map((about) => (
+        <article className="about-container" key={about.id}>
+          <img src={about.img} className="about-img" alt={about.name} />
+          <h3 className="about-name">{about.name}</h3>
+          <p className="about-details">{about.details}</p>
+        </article>
+      ))}
+    </section>
   </section>
 );
 

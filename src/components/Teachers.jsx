@@ -8,19 +8,19 @@ const teacherInfo = [
     img: ehsan,
     name: 'Ehsan Hozori',
     position: 'Founder',
-    subject: 'Quae voluptate similique doloremque voluptatem debitis neque at, est amet incidunt? Nobis.',
+    subject: 'Quae voluptate similique doloremque voluptatem debitis neque at, est amet incidunt? Nobis. Quae voluptate similique doloremque voluptatem debitis neque at, est amet incidunt? Nobis.',
   },
   {
     img: sohail,
     name: 'Ahmad Sohail Batoor',
     position: 'CO Founder',
-    subject: 'Quae voluptate similique doloremque voluptatem debitis neque at, est amet incidunt? Nobis.',
+    subject: 'Quae voluptate similique doloremque voluptatem debitis neque at, est amet incidunt? Nobis. Quae voluptate similique doloremque voluptatem debitis neque at, est amet incidunt? Nobis.',
   },
   {
     img: bill,
     name: 'Bill Gates',
     position: 'Member',
-    subject: 'Quae voluptate similique doloremque voluptatem debitis neque at, est amet incidunt? Nobis.',
+    subject: 'Quae voluptate similique doloremque voluptatem debitis neque at, est amet incidunt? Nobis. Quae voluptate similique doloremque voluptatem debitis neque at, est amet incidunt? Nobis.',
   },
 ];
 

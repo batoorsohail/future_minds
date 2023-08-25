@@ -230,17 +230,17 @@ input::placeholder {
 
   .teacher-section {
     justify-content: center;
-    height: 90vh;
+    height: 100vh;
     gap: 50px;
   }
 
   .te-h2-title {
-    font-size: 36px;
-    margin-top: 0;
+    font-size: 40px;
+    margin-top: -100px;
   }
 
   .te-p-info {
-    font-size: 22px;
+    font-size: 24px;
     width: 50%;
   }
 
@@ -264,5 +264,34 @@ input::placeholder {
 
   .teachers-info {
     margin-left: 100px;
+  }
+
+  .about-section {
+    justify-content: center;
+    height: 100vh;
+    gap: 50px;
+  }
+
+  .about-title {
+    font-size: 40px;
+    margin-top: -100px;
+  }
+
+  .about-info {
+    font-size: 24px;
+    width: 60%;
+  }
+
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .about-container {
+    width: 20%;
+    height: 50%;
+    margin-bottom: 0;
   }
 }
