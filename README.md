@@ -26,7 +26,7 @@
 
 # 📖 Future Minds <a name="about-project"></a>
 
-**Futre Minds is a react project that gets the data from the API and displays it**
+**Future Minds is a simple React website that I created for a non-profit organization that helps needy kids learn English for free. Future Minds has three pages: Home, About, and News.**
 
 ## 🛠 Built With <a name="built-with"></a>
 
