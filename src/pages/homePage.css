@@ -208,6 +208,8 @@ textarea::placeholder {
 .button {
   padding: 12px 16px;
   margin-bottom: 45px;
+  border: none;
+  border-radius: 8px;
   color: #6070ff;
 }
 
@@ -293,6 +295,11 @@ input::placeholder {
     height: 50%;
     margin-bottom: 0;
   }
+
+  .contact-form {
+    height: 100vh;
+    justify-content: center;
+  }
   
   .contact-me {
     font-size: 40px;
@@ -317,5 +324,16 @@ input::placeholder {
   .textarea {
     padding-top: 15px;
     height: 180px;
+  }
+
+  .button {
+    padding: 22px 30px;
+    font-size: 16px;
+    transition: 0.5s all;
+  }
+
+  .button:hover {
+    background-color: #6302ff;
+    color: #fff;
   }
 }
