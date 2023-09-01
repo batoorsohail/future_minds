@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router';
 import HomePage from './pages/HomePage';
-import NewsPage from './pages/NewsPage';
+import BlogPage from './pages/BlogPage';
 import Navbar from './components/Navbar';
 
 const App = () => (
@@ -9,7 +9,7 @@ const App = () => (
     <Navbar />
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/About" element={<NewsPage />} />
+      <Route path="/Blog" element={<BlogPage />} />
     </Routes>
   </>
 );

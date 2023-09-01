@@ -1,5 +1,5 @@
 import React from 'react';
-import './aboutPage.css';
+import './blogPage.css';
 
 const AboutPage = () => (
   <section className="news-section">
