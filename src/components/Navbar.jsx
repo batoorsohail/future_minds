@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="nav-container">
-        <h1>Future Minds</h1>
+        <h1 className="page-title">Future Minds</h1>
         <div className="menu">
           <FaBars className="menu-icon" onClick={toggleMenu} />
           <ul className={isOpen ? 'show open' : 'hide'}>

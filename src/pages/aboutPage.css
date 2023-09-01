@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400');
+
+* {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'lato', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.news-section {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.aboutPage-title {
+  color: #383b72;
+  font-size: 30px;
+}
+
+.about-page-info {
+  color: #7e7bb2;
+  font-size: 22px;
+}
