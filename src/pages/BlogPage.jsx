@@ -1,5 +1,6 @@
 import React from 'react';
 import './blogPage.css';
+import Blog from '../components/Blogs';
 
 const AboutPage = () => (
   <section className="news-section">
@@ -10,6 +11,7 @@ const AboutPage = () => (
         collaborative learning, remote work, and closing the gap between talent and opportunity.
       </p>
     </article>
+    <Blog />
   </section>
 );
 
