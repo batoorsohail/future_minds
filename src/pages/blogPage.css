@@ -53,3 +53,14 @@
 .blog-details {
   padding: 20px;
 }
+
+.news-title-name {
+  color: #3e396b;
+  margin-bottom: 12px;
+}
+
+.news-details-text {
+  color: #636c98;
+  font-size: 18px;
+  line-height: 22px;
+}
