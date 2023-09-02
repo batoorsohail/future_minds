@@ -54,13 +54,22 @@
   padding: 20px;
 }
 
-.news-title-name {
+.blog-title-name {
   color: #3e396b;
   margin-bottom: 12px;
 }
 
-.news-details-text {
+.blog-details-text {
   color: #636c98;
   font-size: 18px;
   line-height: 22px;
+  margin-bottom: 12px;
+}
+
+.blog-card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #e1e6ee;
+  padding: 15px 10px 0px;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import blog1 from '../images/blog1.webp';
 import blog2 from '../images/blog2.webp';
 
@@ -23,12 +24,15 @@ const Blogs = () => {
         <section className="blog-container" key={blogs.id}>
           <img src={blog.image} alt={blog.image} className="blog-image" />
           <article className="blog-details">
-            <h3 className="news-title-name">{blog.blogTitle}</h3>
-            <p className="news-details-text">
+            <h3 className="blog-title-name">{blog.blogTitle}</h3>
+            <p className="blog-details-text">
               {blog.textDetails.slice(0, 100)}
               {blog.textDetails.length > 100 && '...'}
             </p>
-            <p>{blog.date}</p>
+            <div className="blog-card-bottom">
+              <p className="blog-date">{blog.date}</p>
+              <Link to={`blog/${blog.id}`}>Read More</Link>
+            </div>
           </article>
         </section>
       ))}
