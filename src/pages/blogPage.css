@@ -73,3 +73,8 @@
   border-top: 1px solid #e1e6ee;
   padding: 15px 10px 0px;
 }
+
+.link-to-blog {
+  display: flex;
+  align-items: center;
+}
