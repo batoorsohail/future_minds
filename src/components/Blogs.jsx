@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { BsArrowRight } from 'react-icons/bs';
 import blog1 from '../images/blog1.webp';
 import blog2 from '../images/blog2.webp';
 
@@ -31,7 +32,10 @@ const Blogs = () => {
             </p>
             <div className="blog-card-bottom">
               <p className="blog-date">{blog.date}</p>
-              <Link to={`blog/${blog.id}`}>Read More</Link>
+              <Link to={`blog/${blog.id}`} className="link-to-blog">
+                <p className="link-to-blog-txt">Read More</p>
+                <BsArrowRight className="arrow-icon" />
+              </Link>
             </div>
           </article>
         </section>
