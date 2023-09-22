@@ -173,6 +173,7 @@ main {
   display: flex;
   align-items: center;
   flex-direction: column;
+  text-align: center;
   gap: 12px;
 }
 
@@ -186,14 +187,14 @@ main {
   margin-top: 50px;
 }
 
-form {
+#form {
   display: flex;
   flex-direction: column;
   gap: 18px;
   margin-top: 30px;
 }
 
-input {
+.form-input {
   height: 48px;
   border-radius: 8px;
   padding-left: 16px;
@@ -207,6 +208,8 @@ textarea::placeholder {
 .button {
   padding: 12px 16px;
   margin-bottom: 45px;
+  border: none;
+  border-radius: 8px;
   color: #6070ff;
 }
 
@@ -216,6 +219,121 @@ input::placeholder {
 
 .textarea {
   height: 170px;
-  border-radius: 8px;
-  padding: 15px 32px 15px 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    background-image: url(../images/header-shapes-desktop.png);
+    background-size: contain;
+    height: 100vh;
+    padding: 10% 30% 0 10%;
+  }
+
+  .teacher-section {
+    justify-content: center;
+    height: 100vh;
+    gap: 50px;
+  }
+
+  .te-h2-title {
+    font-size: 40px;
+    margin-top: -100px;
+  }
+
+  .te-p-info {
+    font-size: 24px;
+    width: 50%;
+  }
+
+  .teachers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .teachers-container {
+    width: 30%;
+    height: 200px;
+    gap: 20px;
+  }
+
+  .teachers-images {
+    width: 150px;
+    height: 150px;
+  }
+
+  .teachers-info {
+    margin-left: 100px;
+  }
+
+  .about-section {
+    justify-content: center;
+    height: 100vh;
+    gap: 50px;
+  }
+
+  .about-title {
+    font-size: 40px;
+    margin-top: -100px;
+  }
+
+  .about-info {
+    font-size: 24px;
+    width: 60%;
+  }
+
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .about-container {
+    width: 20%;
+    height: 50%;
+    margin-bottom: 0;
+  }
+
+  .contact-form {
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .contact-me {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .form-text {
+    width: 35%;
+    font-size: 24px;
+  }
+
+  #form {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form-input {
+    width: 30%;
+    height: 55px;
+  }
+
+  .textarea {
+    padding-top: 15px;
+    height: 180px;
+  }
+
+  .button {
+    padding: 22px 30px;
+    font-size: 16px;
+    transition: 0.5s all;
+  }
+
+  .button:hover {
+    background-color: #6302ff;
+    color: #fff;
+  }
 }

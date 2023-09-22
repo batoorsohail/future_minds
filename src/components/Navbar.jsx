@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="nav-container">
-        <h1>Future Minds</h1>
+        <h1 className="page-title">Future Minds</h1>
         <div className="menu">
           <FaBars className="menu-icon" onClick={toggleMenu} />
           <ul className={isOpen ? 'show open' : 'hide'}>
@@ -24,10 +24,10 @@ const Navbar = () => {
               <Link className="nav-ul-link" to="/">Home</Link>
             </li>
             <li>
-              <Link className="nav-ul-link" to="/About">About</Link>
+              <Link className="nav-ul-link" to="/about">About</Link>
             </li>
             <li>
-              <Link className="nav-ul-link" to="/Contact">Contact</Link>
+              <Link className="nav-ul-link" to="/blog">Blog</Link>
             </li>
           </ul>
         </div>
