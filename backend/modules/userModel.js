@@ -21,7 +21,7 @@ const userSchema = new Schema({
 
 // static signup method
 userSchema.statics.signup = async function(email, password) {
-  if (!email || !password) {
+  if ( !user_name || !email || !password ) {
     throw Error('All fields must be filled')
   }
   if (!validator.isEmail(email)) {
@@ -46,7 +46,7 @@ userSchema.statics.signup = async function(email, password) {
 
 // static login method
 userSchema.statics.login = async function(email, password) {
-  if (!email || !password) {
+  if (!user_name || !email || !password) {
     throw Error('All fields must be filed')
   }
 
