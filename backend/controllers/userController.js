@@ -1,10 +1,10 @@
 const User = require('../modules/userModel')
 
 const loginUser = async (req, res) => {
-  const { user_name, email, password } = req.body
+  const { email, password } = req.body
 
   try {
-    const user = await User.login(user_name, email, password)
+    const user = await User.login(email, password)
 
     res.status(200).json({email})
   } catch (error) {
