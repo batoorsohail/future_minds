@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400');
+
+* {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'lato', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.news-section {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+
+.aboutPage-title {
+  color: #383b72;
+  font-size: 30px;
+}
+
+.about-page-info {
+  color: #7e7bb2;
+  font-size: 22px;
+}
+
+.blogs {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 50px;
+}
+
+.blog-container {
+  border: #ececec solid 1px;
+  border-radius: 10px;
+}
+
+.blog-image {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.blog-details {
+  padding: 20px;
+}
+
+.blog-title-name {
+  color: #3e396b;
+  margin-bottom: 12px;
+}
+
+.blog-details-text {
+  color: #636c98;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 12px;
+}
+
+.blog-card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #e1e6ee;
+  padding: 15px 10px 0;
+}
+
+.link-to-blog {
+  display: flex;
+  align-items: center;
+}

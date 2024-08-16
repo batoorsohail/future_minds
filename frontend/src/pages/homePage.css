@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400');
+
+* {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'lato', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  background-color: #6f23ff;
+  border-bottom-left-radius: 100px;
+  height: 90vh;
+  padding-bottom: 100px;
+}
+
+.main {
+  background-image: url(../images/header-shapes-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 80px 20px 0 20px;
+}
+
+.main-text {
+  font-size: 50px;
+  color: #fff;
+}
+
+.info-text {
+  font-size: 22px;
+  color: #fff;
+}
+
+.connect-btn {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  background-color: #ffc800;
+  border-radius: 5px;
+  padding: 1rem 4rem;
+}
+
+/* --------Teachers Section-------- */
+
+.teacher-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding: 0 20px 60px 20px;
+  background-color: #f9faff;
+}
+
+.te-h2-title {
+  color: #383b72;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.te-p-info {
+  color: #7e7bb2;
+}
+
+.teachers-container {
+  display: flex;
+  gap: 10px;
+}
+
+.teachers-images {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin-top: -30px;
+}
+
+.teachers-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  background-color: #fff;
+  padding: 20px 20px 20px 50px;
+  margin-left: 50px;
+}
+
+.teachers-name {
+  color: #45487b;
+}
+
+.teachers-position {
+  color: #b5b5b5;
+}
+
+.teachers-subject {
+  color: #5c5a5b;
+}
+
+/* ------about section--------- */
+
+.break-line {
+  width: 90%;
+  align-self: center;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding: 60px 20px 0 20px;
+  background-color: #f9faff;
+}
+
+.about-title {
+  color: #41d3be;
+  font-size: 30px;
+}
+
+.about-info {
+  font-size: 18px;
+  color: #7e7bb2;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  margin-bottom: 60px;
+}
+
+.about-img {
+  width: 100%;
+  height: 28vh;
+}
+
+.about-name {
+  color: #45487b;
+}
+
+.about-details {
+  font-size: 18px;
+  color: #7e7bb2;
+}
+
+/* ------- contact -------- */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  background: #6f23ff;
+  border-top-left-radius: 100px;
+}
+
+.contact-me {
+  color: #fff;
+  font-size: 40px;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 12px;
+}
+
+.form-text {
+  align-self: center;
+  color: #fff;
+}
+
+.form-container {
+  margin: 24px;
+  margin-top: 50px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 30px;
+}
+
+.form-input {
+  height: 48px;
+  border-radius: 8px;
+  padding-left: 16px;
+  border: 1px solid white;
+}
+
+textarea::placeholder {
+  color: #b3bac5;
+}
+
+.button {
+  padding: 12px 16px;
+  margin-bottom: 45px;
+  border: none;
+  border-radius: 8px;
+  color: #6070ff;
+}
+
+input::placeholder {
+  color: #b3bac5;
+}
+
+.textarea {
+  height: 170px;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    background-image: url(../images/header-shapes-desktop.png);
+    background-size: contain;
+    height: 100vh;
+    padding: 10% 30% 0 10%;
+  }
+
+  .teacher-section {
+    justify-content: center;
+    height: 100vh;
+    gap: 50px;
+  }
+
+  .te-h2-title {
+    font-size: 40px;
+    margin-top: -100px;
+  }
+
+  .te-p-info {
+    font-size: 24px;
+    width: 50%;
+  }
+
+  .teachers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .teachers-container {
+    width: 30%;
+    height: 200px;
+    gap: 20px;
+  }
+
+  .teachers-images {
+    width: 150px;
+    height: 150px;
+  }
+
+  .teachers-info {
+    margin-left: 100px;
+  }
+
+  .about-section {
+    justify-content: center;
+    height: 100vh;
+    gap: 50px;
+  }
+
+  .about-title {
+    font-size: 40px;
+    margin-top: -100px;
+  }
+
+  .about-info {
+    font-size: 24px;
+    width: 60%;
+  }
+
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .about-container {
+    width: 20%;
+    height: 50%;
+    margin-bottom: 0;
+  }
+
+  .contact-form {
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .contact-me {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .form-text {
+    width: 35%;
+    font-size: 24px;
+  }
+
+  #form {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form-input {
+    width: 30%;
+    height: 55px;
+  }
+
+  .textarea {
+    padding-top: 15px;
+    height: 180px;
+  }
+
+  .button {
+    padding: 22px 30px;
+    font-size: 16px;
+    transition: 0.5s all;
+  }
+
+  .button:hover {
+    background-color: #6302ff;
+    color: #fff;
+  }
+}
