@@ -1,10 +1,22 @@
-import React from 'react';
+import { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { BsArrowRight } from 'react-icons/bs';
+import { getBlogs, selectAllBlogs } from '../redux/blogs/blogsSlice';
 import blog1 from '../images/blog1.webp';
 import blog2 from '../images/blog2.webp';
 
 const Blogs = () => {
+  const blogs2 = useSelector(selectAllBlogs);
+
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(getBlogs())
+  }, [dispatch]);
+
+  console.log(blogs2);
+
   const blogs = [
     {
       image: blog1,
