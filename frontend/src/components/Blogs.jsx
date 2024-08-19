@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
+import { formatDistanceToNow } from "date-fns/formatDistanceToNow";
 import { BsArrowRight } from 'react-icons/bs';
 import { getBlogs, selectAllBlogs } from '../redux/blogs/blogsSlice';
 
@@ -12,6 +13,14 @@ const Blogs = () => {
   useEffect(() => {
     dispatch(getBlogs())
   }, [dispatch]);
+
+  if (blogs.length < 1) {
+    return (
+      <div>
+        <p>No blogs added</p>
+      </div>
+    )
+  }
 
   return (
     <section className="blogs">
@@ -25,7 +34,7 @@ const Blogs = () => {
               {blog.content.length > 100 && '...'}
             </p>
             <div className="blog-card-bottom">
-              <p className="blog-date">{blog.createdAt}</p>
+              <p className="blog-date">{formatDistanceToNow(new Date(blog.createdAt), { addSuffix: true })}</p>
               <Link to={`blog/${blog.id}`} className="link-to-blog">
                 <p className="link-to-blog-txt">Read More</p>
                 <BsArrowRight className="arrow-icon" />
