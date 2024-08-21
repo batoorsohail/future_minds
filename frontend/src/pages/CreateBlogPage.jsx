@@ -4,6 +4,19 @@ import { createBlog } from '../redux/blogs/blogsSlice';
 import './createBlogPage.css';
 
 const CreateBlogPage = () => {
+  const [ title, setTitle ] = useState('');
+  const [ image, setImage ] = useState('');
+  const [ content, setContent ] = useState('');
+  const dispatch = useDispatch();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const newBlog = { title, image, content };
+    dispatch(createBlog(newBlog));
+    setTitle('');
+    setImage('');
+    setContent('');
+  }
 
   return (
     <section className="create-blog-section" onSubmit={handleSubmit}>
