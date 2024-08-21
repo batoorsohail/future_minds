@@ -18,6 +18,11 @@ export const getBlogs = createAsyncThunk('blogs/getBlogs', async () => {
   }))
 })
 
+export const createBlog = createAsyncThunk('blogs/createBlog', async (blogData) => {
+  const response = await axios.post('http://localhost:4000/api/blogs', blogData);
+  return response.data;
+})
+
 const blogsSlice = createSlice({
   initialState,
   name: "blog",
@@ -32,6 +37,18 @@ const blogsSlice = createSlice({
         state.blogsData = action.payload;
       })
       .addCase(getBlogs.rejected, (state, action) => {
+        state.status = 'rejected';
+        state.error = action.error.message;
+      })
+    builder
+      .addCase(createBlog.pending, (state) => {
+        state.status = 'pending';
+      })
+      .addCase(createBlog.fulfilled, (state, action) => {
+        state.status = 'fulfilled';
+        state.blogsData.push(action.payload);
+      })
+      .addCase(createBlog.rejected, (state, action) => {
         state.status = 'rejected';
         state.error = action.error.message;
       })
