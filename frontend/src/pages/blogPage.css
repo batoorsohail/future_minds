@@ -3,9 +3,10 @@
 * {
   list-style: none;
   text-decoration: none;
-  font-family: 'lato', sans-serif;
+  font-family: 'Lato', sans-serif;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .news-section {
@@ -25,16 +26,18 @@
 .aboutPage-title {
   color: #383b72;
   font-size: 30px;
+  text-align: center;
 }
 
 .about-page-info {
   color: #7e7bb2;
   font-size: 22px;
+  text-align: center;
 }
 
 .blogs {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 30px;
   padding-top: 50px;
 }
@@ -42,12 +45,19 @@
 .blog-container {
   border: #ececec solid 1px;
   border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .blog-image {
   width: 100%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  height: auto;
 }
 
 .blog-details {
@@ -57,12 +67,13 @@
 .blog-title-name {
   color: #3e396b;
   margin-bottom: 12px;
+  font-size: 24px;
 }
 
 .blog-details-text {
   color: #636c98;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.6;
   margin-bottom: 12px;
 }
 
@@ -77,4 +88,55 @@
 .link-to-blog {
   display: flex;
   align-items: center;
+  gap: 5px;
+  color: #6f23ff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link-to-blog:hover .arrow-icon {
+  transform: translateX(3px);
+}
+
+.arrow-icon {
+  transition: transform 0.2s ease;
+}
+
+/* Responsive for tablets (768px and above) */
+@media (min-width: 768px) {
+  .blogs {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .aboutPage-title {
+    font-size: 36px;
+  }
+
+  .about-page-info {
+    font-size: 24px;
+  }
+
+  .blog-container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* Responsive for desktops (1024px and above) */
+@media (min-width: 1024px) {
+  .blogs {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .aboutPage-title {
+    font-size: 40px;
+  }
+
+  .about-page-info {
+    font-size: 26px;
+  }
+
+  .blog-container {
+    max-width: 85%;
+  }
 }
