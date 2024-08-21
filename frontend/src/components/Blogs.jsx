@@ -26,7 +26,7 @@ const Blogs = () => {
     <section className="blogs">
       {blogs.map((blog) => (
         <section className="blog-container" key={blogs.id}>
-          {/* <img src={blog.image} alt={blog.image} className="blog-image" /> */}
+          <img src={blog.image} alt={blog.image} className="blog-image" />
           <article className="blog-details">
             <h3 className="blog-title-name">{blog.title}</h3>
             <p className="blog-details-text">

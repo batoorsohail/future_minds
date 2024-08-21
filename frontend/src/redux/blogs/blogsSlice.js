@@ -11,6 +11,7 @@ export const getBlogs = createAsyncThunk('blogs/getBlogs', async () => {
   const response = await axios.get('http://localhost:4000/api/blogs');
   return response.data.map((blog) => ({
     id: blog._id,
+    image: blog.image,
     title: blog.title,
     content: blog.content,
     createdAt: blog.createdAt
