@@ -5,6 +5,7 @@ import BlogPage from './pages/BlogPage';
 import Navbar from './components/Navbar';
 import CreateBlogPage from './pages/CreateBlogPage';
 import LoginPage from './pages/LoginPage';
+import SignupPage from './pages/SignupPage';
 
 const App = () => (
   <>
@@ -14,6 +15,7 @@ const App = () => (
       <Route path="/blog" element={<BlogPage />} />
       <Route path="/createBlog" element={<CreateBlogPage />} />
       <Route path="/login" element={<LoginPage />} />
+      <Route path="/signup" element={<SignupPage />} />
     </Routes>
   </>
 );
