@@ -32,6 +32,9 @@ const Navbar = () => {
             <li>
               <Link className="nav-ul-link" to="/createBlog">Create Blog</Link>
             </li>
+            <li>
+              <Link className="nav-ul-link" to="/login">Login</Link>
+            </li>
           </ul>
         </div>
       </nav>
