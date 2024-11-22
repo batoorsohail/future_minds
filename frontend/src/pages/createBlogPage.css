@@ -73,3 +73,8 @@ body {
   background-color: #4c1ab1;
   transform: translateY(0);
 }
+
+.error {
+  color: red;
+  font-size: medium;
+}

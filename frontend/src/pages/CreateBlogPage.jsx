@@ -29,6 +29,7 @@ const CreateBlogPage = () => {
           placeholder="Enter the blog title"
           onChange={(e) => setTitle(e.target.value)}
           value={title}
+          required
         />
         
         <label className="form-label">Image link</label>
@@ -38,6 +39,7 @@ const CreateBlogPage = () => {
           placeholder="Enter the image link"
           onChange={(e) => setImage(e.target.value)}
           value={image}
+          required
         />
         
         <label className="form-label">Blog content</label>
@@ -46,6 +48,7 @@ const CreateBlogPage = () => {
           placeholder="Write your blog content here"
           onChange={(e) => setContent(e.target.value)}
           value={content}
+          required
           >
         </textarea>
         
